@@ -5,7 +5,6 @@
 #include <sstream>
 
 #include "InOut.h"
-#include "Building.h"
 
 namespace capycity {
 	typedef struct Coord

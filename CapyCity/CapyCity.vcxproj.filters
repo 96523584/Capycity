@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CapyCity.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
     <ClCompile Include="Map.cpp">
@@ -24,12 +24,18 @@
     <ClCompile Include="InOut.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="CapycitySim.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Map.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
     <ClInclude Include="InOut.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="CapycitySim.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>
