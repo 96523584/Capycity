@@ -134,11 +134,15 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="InOut.cpp" />
     <ClCompile Include="Map.cpp" />
+    <ClCompile Include="Material.cpp" />
+    <ClCompile Include="Wood.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CapycitySim.h" />
     <ClInclude Include="InOut.h" />
     <ClInclude Include="Map.h" />
+    <ClInclude Include="Material.h" />
+    <ClInclude Include="Wood.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

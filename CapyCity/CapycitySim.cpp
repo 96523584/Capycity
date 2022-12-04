@@ -2,6 +2,8 @@
 
 void capycity::CapycitySim::run()
 {
+	Material* test(new Wood(5));
+	std::cout << test->getType();
 	do {
 		for (auto& option : menuOptions) {
 			//std::printf("%5llu : %-50s\n", option.first, option.second.first.c_str());

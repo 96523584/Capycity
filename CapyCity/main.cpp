@@ -11,12 +11,6 @@
 
 #include <cstdio>
 
-void* operator new(size_t size)
-{
-	return malloc(size);
-}
-
-
 int main(int argc, char* argv[])
 {
 	/*
@@ -29,9 +23,9 @@ int main(int argc, char* argv[])
 	 *  3) print current map			DONE
 	 *  4) close program				DONE
 	 * TODO 2:
-	 *	1) organize buildings in class CapycitySim
-	 *	2) class Material
-	 *		- Wood, Metal, Plastic
+	 *	1) organize buildings in class CapycitySim				DONE
+	 *	2) class Material										DONE
+	 *		- Wood, Metal, Plastic								DONE
 	 *	3) swap building enum for class tree
 	 *		- cost, label, needed material vector/array
 	 *	4) add menu functions
